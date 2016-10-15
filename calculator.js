@@ -4,7 +4,8 @@
 
 <!--TODO addition-->
 function addition() {
-    return '+';
+    var current_value = document.getElementById("text_field").value;
+    document.getElementById("text_field").value = current_value.concat(" + ");
 }
 
 <!--TODO subtraction-->
